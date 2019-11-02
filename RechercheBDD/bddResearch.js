@@ -7,10 +7,7 @@ const url = require("url");
 
 // Logs
 const con = mysql.createConnection({
-  host: "mysql-lockev.alwaysdata.net",
-  database: "lockev_web",
-  user: "lockev",
-  password: "Lockevweb9"
+  // *LOGS
 });
 
 // Quick start express

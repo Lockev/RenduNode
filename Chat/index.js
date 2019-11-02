@@ -5,10 +5,7 @@ const mysql = require("mysql");
 
 // Logs BDD
 const con = mysql.createConnection({
-  host: "mysql-lockev.alwaysdata.net",
-  database: "lockev_web",
-  user: "lockev",
-  password: "Lockevweb9"
+  // LOGS
 });
 
 //On se connecte à la BDD, ssi erreur rien ne se lance
